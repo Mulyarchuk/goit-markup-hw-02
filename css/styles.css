@@ -16,6 +16,8 @@ body {
     color: var(--primery-text-color) ;
     background-color:var(--main-letter-color) ;
     font-family: var(--primary-font);
+    font-size: 14px;
+    letter-spacing: 0.03em;
 }
 .list {
     list-style: none;
@@ -45,20 +47,17 @@ button {
     font-weight: Bold;
     font-size: 26px;
     line-height: 1.14;
-    letter-spacing: 0.03em;
 }
 
 .menu-link {
-    font-style: Medium;
+    font-style: 500;
     font-weight: 500;
-    font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
     color: var(--primery-text-color);
 }
 .contact .link {
     font-weight: Medium;
-    font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em; 
     color: var(--secondery-text-color);
@@ -79,11 +78,12 @@ button {
     background-color: var(--background-footer-color);
 }
 .main-tittle {
-    font-weight: black; 
+    font-weight: 900; 
     font-size: 44px;
     line-height: 1.36;
     letter-spacing: 0.06em; 
     color:var(--main-letter-color);
+    text-transform: uppercase;
 }
 .modal-open-btn{
     font-family: inherit;
@@ -110,35 +110,36 @@ button {
     clip-path: inset(50%);
     margin: -1px;
 }
-.main-tittle {
+.main-subtittle {
     font-weight: Bold;
     font-size: 36px;
     line-height: 1.17;
-    letter-spacing: 0.03em;
+}
+.section-team {
+    background-color: var(--background-team-color);
 }
 .section-tittle {
     font-weight: Bold;
-    font-size: 14px;
     line-height: 1.14;
-    letter-spacing: 0.03em;
     text-transform: uppercase;
 }
 .description-tittle {
-    font-weight: Regular;
-    font-size: 16px;
     line-height: 1.71;
-    letter-spacing: 0.03em;
     color: var(--secondery-text-color);
+}
+.description-subtittle {
+    line-height: 1.88;
+    color: var(--secondery-text-color);
+    font-size: 16px;
 }
 .name-tittle {
     font-weight: Medium;
     font-size: 16px;
-    line-height: 1.19;
-    letter-spacing: 0.03em;  
+    line-height: 1.19; 
 }
 
 .name-project {
-    font-weight: Bold;
+    font-weight: 700;
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
@@ -146,10 +147,9 @@ button {
 }
 .change-btn {
     font-family: inherit;
-    font-weight: Medium;
+    font-weight: 500;
     font-size: 16px;
     line-height: 1.63;
-    letter-spacing: 0.03em;
     background-color: var(--background-team-color);
     color: var(--primery-text-color);
 }
@@ -164,9 +164,7 @@ button {
 }
 .footer-info {
     font-style: normal;
-    font-size: 14px;
-    line-height: 1.71;
-    letter-spacing: 0.03em;  
+    line-height: 1.71; 
     color: var(--letter-color); 
 }
 .footer-info .adress {
