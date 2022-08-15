@@ -44,7 +44,7 @@ button {
 .logo {
     color:var(--accent-color) ;
     font-family: var(--secondary-font); 
-    font-weight: Bold;
+    font-weight: 700;
     font-size: 26px;
     line-height: 1.14;
 }
@@ -57,7 +57,7 @@ button {
     color: var(--primery-text-color);
 }
 .contact .link {
-    font-weight: Medium;
+    font-weight: 500;
     line-height: 1.14;
     letter-spacing: 0.02em; 
     color: var(--secondery-text-color);
@@ -87,7 +87,7 @@ button {
 }
 .modal-open-btn{
     font-family: inherit;
-    font-weight: Bold;
+    font-weight: 700;
     font-size: 16px;
     line-height: 1.9;
     letter-spacing: 0.06em;
@@ -111,7 +111,7 @@ button {
     margin: -1px;
 }
 .main-subtittle {
-    font-weight: Bold;
+    font-weight: 700;
     font-size: 36px;
     line-height: 1.17;
 }
@@ -119,7 +119,8 @@ button {
     background-color: var(--background-team-color);
 }
 .section-tittle {
-    font-weight: Bold;
+    font-weight: 700;
+    font-size: 14px;
     line-height: 1.14;
     text-transform: uppercase;
 }
@@ -133,7 +134,7 @@ button {
     font-size: 16px;
 }
 .name-tittle {
-    font-weight: Medium;
+    font-weight: 500;
     font-size: 16px;
     line-height: 1.19; 
 }
